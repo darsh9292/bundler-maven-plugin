@@ -70,11 +70,12 @@
             <artifactId>plexus-utils</artifactId>
             <version>3.0.8</version>
         </dependency>
-        <dependency>
+        <!--To support angular, skipping minify since we are using another library-->
+<!--        <dependency>
             <groupId>com.yahoo.platform.yui</groupId>
             <artifactId>yuicompressor</artifactId>
             <version>2.4.7</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
