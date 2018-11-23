@@ -81,4 +81,4 @@ After running plugin the result will be outputted to ```${project.build.outputDi
 </html>
 ```
 
-Bundled files are automatically concatenated and minimized with http://yui.github.io/yuicompressor/ . If you are using any other minified plugin for minified, disable this library from pom.xml and build project.
+Bundled files are automatically concatenated and minimized with http://yui.github.io/yuicompressor/. Currently I have disabled from original repository, if you still want to use, you can enable it.
